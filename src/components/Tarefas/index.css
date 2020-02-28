@@ -1,0 +1,23 @@
+.tabela {
+    margin: 1rem auto;
+    font-size: 1rem;
+}
+
+.tabela__cabecalho {
+    font-weight: bold;
+    text-align: center;
+    background-color: #dedede;
+}
+
+.tabela td {
+    padding: 5px;
+}
+
+.tabela__linha {
+    background-color: rgba(222,222,222,.2);
+    text-align: center;
+}
+
+.tabela__linha:nth-child(even) {
+    background-color: rgba(222,222,222,.8);
+}
